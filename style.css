@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    filter: invert(1) hue-rotate(180deg)
 }
 
 div {
@@ -21,4 +22,10 @@ p::first-letter {
     font-size: 2rem;
     font-weight: bold;
     font-family: sans-serif;
+}
+
+a {
+    font-size: 5rem;
+    color: darkgreen;
+
 }
