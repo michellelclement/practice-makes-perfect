@@ -5,3 +5,9 @@ div {
     height: 100vh;
     text-align: center;
 }
+
+/* Changed background colour or text and text colour when highlighted */
+p::selection {
+    background-color: blueviolet;
+    color: white;
+}
