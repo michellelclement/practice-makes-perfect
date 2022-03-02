@@ -1,6 +1,8 @@
 html {
     scroll-behavior: smooth;
-    filter: invert(1) hue-rotate(180deg)
+    filter: invert(1) hue-rotate(180deg);
+    font-size: 62.5%;
+
 }
 
 div {
@@ -9,6 +11,10 @@ div {
     margin: auto;
     height: 100vh;
     text-align: center;
+}
+
+p {
+    font-size: 2rem;
 }
 
 /* Changed background colour or text and text colour when highlighted */
@@ -27,5 +33,5 @@ p::first-letter {
 a {
     font-size: 5rem;
     color: darkgreen;
-
 }
+
