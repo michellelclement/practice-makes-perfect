@@ -11,3 +11,10 @@ p::selection {
     background-color: blueviolet;
     color: white;
 }
+
+/* Make first letter of each P different */
+p::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
