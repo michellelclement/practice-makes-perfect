@@ -1,8 +1,6 @@
-const para = document.querySelector("body > div:nth-child(2)");
+const title = document.querySelector('h1');
+const error = document.querySelector('.error');
 
-console.log(para);
-
-
-const paras = document.querySelectorAll("p");
-
-console.log(paras[2]);
+//console.log(title.innerText);
+title.innerText = "Hi there!";
+error.innerText += " or is it?";
