@@ -1,6 +1,12 @@
-const content = document.querySelector(".error-text");
-console.log(content.classList);
+const paras = document.querySelectorAll('p');
+console.log(paras);
 
-content.classList.add("error-style");
-content.classList.remove("error-style");
-content.classList.add("success-style");
+paras.forEach(p => {
+    if(p.textContent.includes('error')){
+        p.classList.add('error-style');
+    } else {
+        if(p.textContent.includes('success')) {
+            p.classList.add('success-style')
+        }
+    }
+})
