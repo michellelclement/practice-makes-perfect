@@ -1,6 +1,5 @@
-const errorMsg = document.querySelector(".error-msg");
-const people = ["Michelle", "Matt", "Lennon", "Frank"];
+const link = document.querySelector("a");
 
-people.forEach(person => {
-    errorMsg.innerHTML += `<p>${person}</p>`
-})
+console.log(link.getAttribute("href"));
+link.setAttribute('href', 'https//www.faceook.com');
+link.innerText= "Facebook baby";
