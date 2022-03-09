@@ -43,3 +43,18 @@ h1 {
     -webkit-text-fill-color: transparent;
     display: inline;
 }
+
+
+/* Adding styles in JS */
+
+.error-style {
+    padding: 50px;
+    color: red;
+    border: 3px dotted red;
+}
+
+.success-style {
+    padding: 10px;
+    color: deepskyblue;
+    border: 3px dotted deepskyblue;
+}
