@@ -19,3 +19,5 @@ errorMsg.style.margin = '150px';
 console.log(errorMsg.style.margin);
 
 errorMsg.style.fontSize = "60px";
+//Empty string reverts back to original setting"
+errorMsg.style.fontSize = "";
