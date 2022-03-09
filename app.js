@@ -7,3 +7,7 @@ link.innerText = "Facebook baby";
 const errorMsg = document.querySelector('.new-error');
 console.log(errorMsg.getAttribute('class'));
 errorMsg.setAttribute('class', 'new-error-message');
+
+
+// Set attribute to an element that doesnt exist
+errorMsg.setAttribute('style', 'color: purple');
