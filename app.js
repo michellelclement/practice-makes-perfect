@@ -5,9 +5,17 @@ link.setAttribute('href', 'https//www.faceook.com');
 link.innerText = "Facebook baby";
 
 const errorMsg = document.querySelector('.new-error');
-console.log(errorMsg.getAttribute('class'));
-errorMsg.setAttribute('class', 'new-error-message');
 
 
 // Set attribute to an element that doesnt exist
 errorMsg.setAttribute('style', 'color: purple');
+
+//Shows CSS styling
+console.log(errorMsg.style);
+console.log(errorMsg.style.color);
+
+
+errorMsg.style.margin = '150px';
+console.log(errorMsg.style.margin);
+
+errorMsg.style.fontSize = "60px";
