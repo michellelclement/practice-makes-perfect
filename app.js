@@ -1,2 +1,6 @@
 const errorMsg = document.querySelector(".error-msg");
-errorMsg.innerHTML += '<h2>NewH2</h2>';
+const people = ["Michelle", "Matt", "Lennon", "Frank"];
+
+people.forEach(person => {
+    errorMsg.innerHTML += `<p>${person}</p>`
+})
